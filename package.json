@@ -1,14 +1,14 @@
 {
-  "name": "@workspace/scripts",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
+  "name": "my-discord-bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
   "scripts": {
-    "hello": "tsx ./src/hello.ts",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
   },
   "devDependencies": {
-    "@types/node": "catalog:",
-    "tsx": "catalog:"
+    "typescript": "^5.9.3"
   }
 }
